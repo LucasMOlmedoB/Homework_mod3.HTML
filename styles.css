@@ -1,0 +1,38 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: seagreen;
+    color: plum;
+    margin: 7em;
+  }
+
+  #Encabezado {
+    border: 5px groove orangered;
+    width: fit-content;
+    margin: auto;
+    padding: 4em;
+    border-radius: 10%;
+    transition: 1.2s;
+  }
+#Encabezado:hover{
+    background-color: firebrick;
+}
+
+  #Primetitle{
+    font-size: 5em;
+    color: gold;
+  }
+
+  .Titles {
+      font-size: 2.2em;
+      color: cyan;   
+  }
+
+  .Foto {
+    width: 25em;
+  }
+
+
+
+  #Footertext {
+    font-size: 1.3em;
+  }
