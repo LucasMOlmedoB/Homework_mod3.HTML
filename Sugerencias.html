@@ -8,19 +8,19 @@
 </head>
 <body>
   <header>
-    <div>
+    <div id="Encabezadoformulario">
     <h1>
-        Bienvenidos al formulario de sugerencias. 
+        Bienvenidos al formulario de sugerencias! 
     </h1>
     </div>
     <div>
-    <h2>    
+    <h2 class="Titlesformulario">    
         Te pediremos algunos datos y luego encontrarás una casilla donde expresarte.
         Lo leeremos a la brevedad y, de ser necesario, te contactaremos.
     </h2>
     </div>
     <div>
-    <h3>
+    <h3 class="Titlesformulario">
         Desde ya, muchas gracias por tu opinión!
     </h3>
     </div>
@@ -28,55 +28,55 @@
 
   <main>
     <form>
-        <div>
-           <label for="Nombre" >Nombre:</label>
+        <div class="cajaformulario">
+           <label for="Nombre" class="formulariolist">Nombre:</label>
            <input type="text" name="Nombre" placeholder="Ingrese su nombre" /> 
         </div>
 
-        <div>
-            <label for="Apellido" >Apellido:</label>
+        <div class="cajaformulario">
+            <label for="Apellido" class="formulariolist">Apellido:</label>
             <input type="text" name="Apellido" placeholder="Ingrese su apellido" /> 
          </div>
 
-         <div>
-            <label for="Edad" >Edad:</label>
+         <div class="cajaformulario">
+            <label for="Edad" class="formulariolist">Edad:</label>
             <input type="number" name="Edad" placeholder="Seleccione su edad" /> 
          </div>
 
-         <div>
-            <label for="Género" >Género:</label>
+         <div class="cajaformulario">
+            <label for="Género" class="formulariolist">Género:</label>
             <input type="text" name="Género" placeholder="Ingrese su género" /> 
          </div>
 
-         <div>
-            <label for="Mail" >Correo Electrónico:</label>
+         <div class="cajaformulario">
+            <label for="Mail" class="formulariolist">Correo Electrónico:</label>
             <input type="email" name="Mail" placeholder="Ingrese su Email" /> 
          </div>
 
-         <div>
-            <label for="Tel" >Número de contacto:</label>
+         <div class="cajaformulario">
+            <label for="Tel" class="formulariolist">Número de contacto:</label>
             <input type="tel" name="Tel" placeholder="Ingrese su nro. de Tel." /> 
          </div>
 
-         <div>
-            <label for="User" >Usuario:</label>
+         <div class="cajaformulario">
+            <label for="User" class="formulariolist">Usuario:</label>
             <input type="text" name="User" placeholder="Usuario" /> 
          </div>
 
-         <div>
-            <label for="Password" >Contraseña:</label>
+         <div class="cajaformulario">
+            <label for="Password" class="formulariolist">Contraseña:</label>
             <input type="password" name="Password" placeholder="Password" /> 
          </div>
 
-         <div>
-            <label for="Opinion" >Comentario:</label>
-            <input type="text" name="Opinion" placeholder="Ingrese aqui su opinión" /> 
+         <div class="cajaformulario">
+            <label for="Opinion" class="formulariolist">Comentario:</label>
+            <input type="text" name="Opinion" placeholder="Ingrese aqui su opinión" id="cajasugerencia"/> 
          </div>
 
 
 
-       <button>
-        <a href="Gracias.html" >ENVIAR SUGERENCIA</a>
+       <button id="boton">
+        <a href="Gracias.html" id="msjboton">ENVIAR SUGERENCIA</a>
        </button>  
     </form>
   </main>

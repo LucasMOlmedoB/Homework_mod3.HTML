@@ -1,8 +1,11 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: seagreen;
-    color: plum;
-    margin: 7em;
+    background-color: rgb(82, 0, 118);
+    color: ivory;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
   }
 
   #Encabezado {
@@ -13,6 +16,26 @@ body {
     border-radius: 10%;
     transition: 1.2s;
   }
+
+  .PESTAÑAS{
+    background-color: gold;
+    font-size: 1em;
+    color: blue;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    margin-inline-start: 1.5em;
+  }
+
+  #margenpestañas{
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    margin-inline-start: 1.5em;
+  }
+
 #Encabezado:hover{
     background-color: firebrick;
 }
@@ -23,16 +46,128 @@ body {
   }
 
   .Titles {
-      font-size: 2.2em;
-      color: cyan;   
+      font-size: 2.3em;
+      color: lightskyblue;   
   }
 
   .Foto {
     width: 25em;
   }
 
+.textogral{
+ font-size: 1.5em;
+ color: ivory;
+ margin-top: 1.5em;
+ margin-bottom: 1.5em;
+ margin-left: 1.5em;
+ margin-right: 1.5em;
+}
 
+.LISTA{
+  font-size: 1.3em;
+  color: gold;
+  margin: auto;
+  display: none;
+  flex-direction: column;
+  justify-content: space-evenly;
+ }
+ 
+ .LISTA:target{
+  background-color: darkblue;
+  border: 0.5em darkblue solid;
+  border-radius: 10%;
+  transition: 2s;
+  display: block; 
+}
+
+ #listaextensible{
+  background-color: firebrick;
+  width: 60vw;
+  border: 1.2em coral solid;
+  border-radius: 10%;
+  transition: 2.5s;
+  margin: auto;
+  padding-left: 4.0em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+ }
 
   #Footertext {
-    font-size: 1.3em;
+    font-size: 1em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+  }
+
+  #formulario{
+    font-size: 1.15em;
+    color: coral;
+  }
+
+  .Titlesformulario {
+    font-size: 1.8em bold;
+    color: cyan;   
+}
+
+.cajaformulario{
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  margin-inline-start: 1.5em;
+}
+
+.formulariolist{
+  font-size: 1.55em;
+  color: lightsalmon;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  margin-inline-start: 1.5em;
+}
+
+  #Encabezadoformulario{
+    border: 4.5px groove orangered;
+    width: fit-content;
+    margin: auto;
+    padding: 2em;
+    border-radius: 10%;
+    transition: 1.2s;
+    font-size: 1.5em;
+    color: gold;
+  }
+
+  #Encabezadoformulario:hover{
+    background-color: firebrick;
+  }
+
+  #cajasugerencia{
+    width: 30vw;
+    margin: 1em;
+    padding: 5em;
+    
+  }
+
+  #boton{
+    border: 0.3em solid;
+    width: fit-content;
+    margin: auto;
+    padding: 2em;
+    background-color: darkblue;
+    font-size: large;
+  }
+
+  #msjboton{
+    font-size: medium;
+    color: gold;
+    font-weight: bolder;
+  }
+
+  #graciastitle{
+    font-size: 5em;
+    color: gold;
+  }
+
+  .graciastext{
+     font-size: 2em;
+     color: cyan;
   }

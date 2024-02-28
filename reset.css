@@ -1,0 +1,23 @@
+/* Reset de estilos para todos los elementos */
+
+/* Definir márgenes y rellenos a 0 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Esto garantiza que el tamaño total de un elemento se calcule con sus bordes y relleno incluidos, y no solo su contenido */
+}
+
+/* Establecer las fuentes a un tamaño base y color */
+body {
+    font-family: Arial, sans-serif; /* Definir una fuente de base */
+    font-size: 16px; /* Tamaño de fuente base */
+    color: #333; /* Color de texto base */
+}
+
+/* Reset de estilos para enlaces */
+a {
+    text-decoration: none; /* Eliminar subrayado de enlaces */
+    color: inherit; /* Heredar el color del texto */
+}
+
+/* Otros estilos de reset pueden incluirse según sea necesario */
